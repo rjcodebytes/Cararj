@@ -71,20 +71,19 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0px 30px;
-    background: #E3E6F3;
+    background: #000000;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    z-index: 999;
-    position: sticky;
+    z-index: 1000;
     top: 0;
     left: 0;
-    height: 100px;
+    height: 120px;
+    position: sticky;
 }
 
 .navlogo{
-    height: 105px;
+    height: 40px;
     width: 260px;
     position: relative;
-    top: 15px;
 }
 
 #header .icon{
@@ -114,19 +113,19 @@ body{
     text-decoration: none;
     font-size: 24px;
     font-weight: 600;
-    color:#1a1a1a;
+    color:#ffffff;
     transition: .3s ease;
 }
 
 #navbar li a:hover,
 #navbar li a.active{
-    color:#088178
+    color:#ff7300
 }
 
 #navbar li a.active::after,
 #navbar li a:hover::after{
  content: "";
- background: #088178;
+ background: #ff7300;
  width:30%;
  height: 2px;
  left: 20px;
@@ -141,11 +140,9 @@ body{
     overflow: hidden;
     z-index: 999;
     position: sticky;
-    top: 80px;
-    background: rgba(227, 230, 243, .5);
     backdrop-filter: blur(10px);
     left: 0;
-
+    top: 100px;
 }
 
 #toggle-navbar {
@@ -162,15 +159,10 @@ body{
     font-size: 25px;
 }
 
-#toggle-navbar li:last-child {
-    margin-bottom: 0;
-}
-
 #toggle-navbar li a {
     text-decoration: none;
     color: #333;
     font-weight: 600;
-    
 }
 
 #toggle-navbar li a.active,
@@ -180,7 +172,7 @@ body{
 
 .icon {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     font-size: 20px;
     cursor: pointer;
 }
