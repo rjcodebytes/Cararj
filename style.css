@@ -13,7 +13,7 @@
 h1 {
     font-size: 60px;
     line-height: 64px;
-    color: #222;
+    color: #ff7300;
   }
   
   h2 {
@@ -230,7 +230,7 @@ body{
 }
 
 #main h1{
-    color: #088178;
+    color: #ff7300;
 }
 
 
@@ -238,7 +238,7 @@ body{
   
   align-items: center;
   appearance: none;
-  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #088178 100%);
+  background-image: radial-gradient(100% 150% at 100% 0, #fd9e32 0, #021514 100%);
   border: 0;
   border-radius: 6px;
   box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
@@ -520,6 +520,7 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background: #000000;
 }
 
 footer .col{
@@ -531,7 +532,7 @@ footer .col{
 
 footer .logo{
     margin-bottom: 10px;
-    height: 105px;
+    height: 40px;
     width: 260px;
     position: relative;
     top: 15px;
@@ -550,7 +551,7 @@ footer p{
 footer a{
     font-size: 13px;
     text-decoration: none;
-    color: #222;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
@@ -575,7 +576,7 @@ footer .install img{
 
 footer .follow i:hover,
 footer a:hover{
-   color: #088178;
+   color: #ff7300;
    transition: .3s;
 }
 
